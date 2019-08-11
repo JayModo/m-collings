@@ -1,8 +1,12 @@
 .head-space{
+  background: no-repeat;
   background-image: url(https://mail.google.com/mail/u/0?ui=2&ik=af4278023a&attid=0.1&permmsgid=msg-a:r-4256544771955722955&th=16c7c427a54dac91&view=att&disp=safe&realattid=f_jz5q6zlj0);
-  min-height: 75vh;
+  min-height: 125vh;
+  margin-top: -50px;
+justify-content: center
 }
 .rounded{
+  margin-top: 65px;
   margin-left: 20px;
 }
 .name{
@@ -21,12 +25,14 @@ body,html{
   background-size: cover;
 }
 .row2{
-  position: relative;
+  align-content: flex-start;
+  position: absolute;
   width: 50%;
 }
 .keith{
+  transform: rotate3d(360deg);
   display: block;
-  width: 100%;
+  width: 66%;
   height: auto;
 }
 .overlay{
@@ -36,10 +42,11 @@ body,html{
   left: 0;
   right: 0;
   height: 100%;
-  width: 100%;
-  opacity: 0;
+  width: 66%;
+  opacity: -.25;
   transition: .5s ease;
-  background-color: aliceblue;
+
+
 }
 .row2 :hover .overlay{
   opacity: 1;
